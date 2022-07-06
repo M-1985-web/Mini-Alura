@@ -1,0 +1,44 @@
+.flexContainer:last-child {
+    margin-top: 2em;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    height: 50px;
+    width: 50px;
+}
+
+
+div:nth-child(1){background-color: red; width: 100px; height: 100px;}
+div:nth-child(2){background-color:blue}
+div:nth-child(3){background-color:green}
+div:nth-child(4){background-color:yellow}
+div:nth-child(5){background-color:pink}
+div:nth-child(6){background-color:black}
+div:nth-child(7){background-color:orange}
+div:nth-child(8){background-color: silver;}
+/*fin de la configuracion*/
+
+.flexContainer{
+    /*elementos uno al lado del otro*/
+    display: flex;
+
+    /*uso el espacio disponible y coloco los elementos en el medio justify-content: center;*/
+
+    /*uso el espacio disponible y coloco los elementos con espacio*/
+    justify-content:space-between;
+
+    align-items: center;
+    
+    
+    /*justify-content:space-around*/
+    /*height: 800px;*/
+    /*flex-direction: column;*/
+
+
+}
+
