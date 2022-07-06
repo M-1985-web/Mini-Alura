@@ -1,6 +1,6 @@
 # Mini-Alura
-
-
+si queres visualizar el proyecto:
+https://m-1985-web.github.io/Mini-Alura/
 
 
 mini-alura
